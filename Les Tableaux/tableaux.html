@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Les Tableaux</title>
+</head>
+
+<body>
+    <table border="2px">
+        <thead>
+            <tr>
+                <th rowspan="2">ID</td>
+                <th>NOM</td>
+                <th>PRIX</td>
+            </tr>
+            <tr>
+                <th>Détails</td>
+                <th>Devise</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1425</td>
+                <td>produit1</td>
+                <td>10€26</td>
+            </tr>
+            <tr>
+                <td>5555</td>
+                <td>produit2</td>
+                <td>45€</td>
+            </tr>
+            <tr>
+                <td>4444</td>
+                <td>produit3</td>
+                <td>26€</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>81€26</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Exercice 1</h2>
+
+    <table border="4px">
+        <thead>
+            <th>ID</th>
+            <th>Game</th>
+            <th>Console</th>
+            <th>Year</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>002</td>
+                <td>Rayman2</td>
+                <td rowspan="2">Dreamcast</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>SonicAdvt 2</td>
+                <td>2001</td>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Pkmn Ruby</td>
+                <td rowspan="2">Dreamcast</td>
+                <td rowspan="2">2003</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>SonicAdvt 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Exercice 2</h2>
+
+    <table border="2px">
+        <thead>
+            <tr>
+                <th colspan="8">EMPLOI DU TEMPS</th>
+            </tr>
+            <tr>
+                <th>X</th>
+                <th>Lundi</th>
+                <th>Mardi</th>
+                <th>Mercredi</th>
+                <th>Jeudi</th>
+                <th>Vendredi</th>
+                <th>Weekend</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">A.M</td>
+                <td rowspan="2">Rentrée</td>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td rowspan="4">Libre</td>
+                <td>TP N°5</td>
+                <td rowspan="4">NETFLIX & CHILL</td>
+            </tr>
+            <tr>
+                <td>TP N°2</td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
