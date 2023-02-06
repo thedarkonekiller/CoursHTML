@@ -2,16 +2,33 @@ body {
     background: url(./code-1839406_1920.jpg);
 }
 fieldset {
+    display: flex;
+    flex-direction: column;
     background: black;
-    color: white;
-    width: 300px;
+    width: 350px;
     border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 legend {
     color: green;
     font-weight: 600;
     font-size: 2rem;
 }
+input[type=email], input[type=password] {
+    display: flex;
+    justify-content: left;
+    padding: 5px 10px;
+}
 input[type=email]:hover, input[type=password]:hover {
     background: lime;
+}
+input[type=checkbox] {
+    margin: 10px 0;
+}
+label {
+    color: white;
+    padding: 10px 0;
+}
+.submitButton {
+    font-size: x-large;
 }
