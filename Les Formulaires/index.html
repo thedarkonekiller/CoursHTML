@@ -11,7 +11,7 @@
 <body>
     <form action="#" method="post">
         <fieldset>
-            <legend>LOGIN</legend>
+            <legend>Se Connecter</legend>
                 <label for="formEmail">Votre Email :</label>
                 <input type="email" name="mail" id="formEmail" placeholder="toto@gmail.com">
                 <label for="formPwd">Votre Mot de passe :</label>
@@ -21,6 +21,24 @@
                     <label for="rememberMe">Rester Connecté</label>
                 </div>
             <input type="button" value="Envoyer" class="submitButton">
+        </fieldset>
+        <fieldset>
+            <legend>S'Enregistrer</legend>
+            <label for="name">Nom</label>
+            <input type="text" name="name" id="name" placeholder="MARTIN" required>
+            <label for="firstname">Prénom</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Pierre" required>
+            <label for="mail">Votre Email :</label>
+            <input type="email" name="mail" id="mail" placeholder="pmartin@gmail.com" required>
+            <label for="pwd">Saisissez un mot de passe</label>
+            <input type="password" name="pwd" id="pwd" placeholder="monmotdepasse" required>
+            <label for="repeatpwd">Retaper le mot de passe</label>
+            <input type="password" name="repeatpwd" id="repeatpwd" placeholder="monmotdepasse" required>
+            <label for="phone">Téléphone</label>
+            <input type="tel" name="phone" id="phone" placeholder="0625252525">
+            <input type="checkbox" name="rgpd" id="rgpd" required>
+            <label for="rgpd">En cochant cette case vous accepter que les données saisie soient conservées uniquement pour le traitement de votre demande.</label>
+            <input type="button" value="S'Enregistrer" class="submitButton">
         </fieldset>
     </form>
 </body>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="TP n°04 ducours d'HTML de la formation de développeur web dispensé par M. Yohann MOY au SJT de Soissons">
+    <title>Florian CHARPENTIER - Les Formulaires</title>
+</head>
+
+<body>
+    <header>
+        <h1>Les Formulaires HTML</h1>
+    </header>
+    <main>
+        <h2>Mon premier formulaire</h2>
+        <form action="#" method="post">
+            <div>
+                <input type="radio" name="sex" id="man">
+                <label for="man">Homme</label>
+                <input type="radio" name="sex" id="women">
+                <label for="women">Femme</label>
+                <input type="radio" name="sex" id="other">
+                <label for="other">Non renseigné</label>
+            </div>
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="firstname">Prénom :</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <div>
+                <label for="age">Age :</label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div>
+                <label for="mail">Email :</label>
+                <input type="email" name="mail" id="mail">
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <input type="textarea" name="message" id="message">
+            </div>
+            <div>
+                <input type="checkbox" name="rgpd" id="rgpd">
+                <label for="rgpd">En cochant cette case j'accepte les conditions relatives à l'utilisation de mes
+                    données personnelles.(Accèder aux mentions légales)</label>
+            </div>
+            <input type="button" value="Envoyer le message">
+        </form>
+        <hr>
+        <h2>Ensemble de champs</h2>
+        <form action="#" method="post"></form>
+        <fieldset>
+            <legend>MON SECOND FORMULAIRE</legend>
+            <fieldset>
+                <legend>Identité</legend>
+                <div>
+                    <input type="radio" name="sex" id="man">
+                    <label for="man">Homme</label>
+                    <input type="radio" name="sex" id="women">
+                    <label for="women">Femme</label>
+                    <input type="radio" name="sex" id="other">
+                    <label for="other">Non renseigné</label>
+                </div>
+                <div>
+                    <label for="name">Nom :</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="firstname">Prénom :</label>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <div>
+                    <label for="age">Age :</label>
+                    <input type="number" name="age" id="age">
+                </div>
+        </fieldset>
+                <fieldset>
+                    <legend>Situation personnelle</legend>
+                    <input type="radio" name="personnalSituation" id="celib">
+                    <label for="celib">Célibataire</label>
+                    <input type="radio" name="personnalSituation" id="mary">
+                    <label for="mary">Marié</label>
+                    <input type="radio" name="personnalSituation" id="veuf">
+                    <label for="veuf">Veuf</label>
+                    <input type="radio" name="personnalSituation" id="free">
+                    <label for="free">Union libre</label>
+                </fieldset>
+
+    </main>
+</body>
+
+</html>
