@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cours HTML traitant des formulaires">
+    <title>HTML - Les Formulaires</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>LOGIN</legend>
+            <div>
+                <label for="formEmail">Votre Email :</label>
+                <input type="email" name="mail" id="formEmail" placeholder="toto@gmail.com">
+            </div>
+            <div>
+                <label for="formPwd">Votre Mot de passe :</label>
+                <input type="password" name="pwd" id="formPwd" placeholder="monmotdepasse">
+            </div>
+            <div>
+                <input type="checkbox" name="rememberMe" id="rememberMe">
+                <label for="rememberMe">Rester Connecté</label>
+            </div>
+            <input type="button" value="Envoyer">
+        </fieldset>
+    </form>
+</body>
+</html>

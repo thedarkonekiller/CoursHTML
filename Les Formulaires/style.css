@@ -1,0 +1,17 @@
+body {
+    background: url(./code-1839406_1920.jpg);
+}
+fieldset {
+    background: black;
+    color: white;
+    width: 300px;
+    border-radius: 15px;
+}
+legend {
+    color: green;
+    font-weight: 600;
+    font-size: 2rem;
+}
+input[type=email]:hover, input[type=password]:hover {
+    background: lime;
+}
