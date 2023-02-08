@@ -18,11 +18,11 @@
         <h2>Mon premier formulaire</h2>
         <form action="#" method="post">
             <div>
-                <input type="radio" name="sex" id="man">
+                <input type="radio" name="sex" id="man" value="homme">
                 <label for="man">Homme</label>
-                <input type="radio" name="sex" id="women">
+                <input type="radio" name="sex" id="women" value="femmme">
                 <label for="women">Femme</label>
-                <input type="radio" name="sex" id="other">
+                <input type="radio" name="sex" id="other" value="nr">
                 <label for="other">Non renseigné</label>
             </div>
             <div>
@@ -46,7 +46,7 @@
                 <textarea name="message" id="message" cols="30" rows="2"></textarea>
             </div>
             <div>
-                <input type="checkbox" name="rgpd" id="rgpd">
+                <input type="checkbox" name="rgpd" id="rgpd" value="validationRGPD">
                 <label for="rgpd">En cochant cette case j'accepte les conditions relatives à l'utilisation de mes
                     données personnelles.(Accèder aux mentions légales)</label>
             </div>
@@ -60,11 +60,11 @@
             <fieldset>
                 <legend>Identité</legend>
                 <div>
-                    <input type="radio" name="sex" id="man2">
+                    <input type="radio" name="sex" id="man2" value="homme">
                     <label for="man2">Homme</label>
-                    <input type="radio" name="sex" id="women2">
+                    <input type="radio" name="sex" id="women2" value="femme">
                     <label for="women2">Femme</label>
-                    <input type="radio" name="sex" id="other2">
+                    <input type="radio" name="sex" id="other2" value="nr">
                     <label for="other2">Non renseigné</label>
                 </div>
                 <div>
@@ -82,13 +82,13 @@
             </fieldset>
             <fieldset>
                 <legend>Situation personnelle</legend>
-                <input type="radio" name="personnalSituation" id="celib">
+                <input type="radio" name="personnalSituation" id="celib" value="celibataire">
                 <label for="celib">Célibataire</label>
-                <input type="radio" name="personnalSituation" id="mary">
+                <input type="radio" name="personnalSituation" id="mary" value="marie">
                 <label for="mary">Marié</label>
-                <input type="radio" name="personnalSituation" id="veuf">
+                <input type="radio" name="personnalSituation" id="veuf" value="veuf">
                 <label for="veuf">Veuf</label>
-                <input type="radio" name="personnalSituation" id="free">
+                <input type="radio" name="personnalSituation" id="free" value="unionLibre">
                 <label for="free">Union libre</label>
             </fieldset>
             <fieldset>
@@ -104,7 +104,7 @@
             </fieldset>
         </fieldset>
         <div>
-            <input type="checkbox" name="validation" id="validation">
+            <input type="checkbox" name="validation" id="validation" value="validationReponses">
             <label for="validation">En cochant cette case je confirme que les données renseignées sont exactes</label>
         </div>
         <input type="button" value="Transmettre mes coordonnées">
